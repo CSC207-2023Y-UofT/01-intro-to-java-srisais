@@ -45,7 +45,7 @@ public class Basics {
          */
 
         System.out.println("Hello World!");
-        // Technically, it should be the string "Hello, World!" lol -- a comma is missing
+        // Technically, the proper english should be the string "Hello, World!" lol -- a comma is missing
 
 
         /* 4. In Python, we could declare variables using a simple assignment
@@ -109,6 +109,7 @@ public class Basics {
          */
 
          for (int i = 10; i >= 0; i--) {
+             System.out.print("Current count: ");
              System.out.println(i);
          }
          // Technically, the equivalent of a Python for-loop in Java is an "Enhanced For-Loop"
